@@ -5,8 +5,10 @@
         <meta charset="utf-8">
         <title>Maq</title>
         <link rel="stylesheet" href="uikit/css/uikit.css">
+        <!--
         <link rel="stylesheet" href="uikit/css/uikit.gradient.css">
         <link rel="stylesheet" href="uikit/css/uikit.almost-flat.css">
+        -->
         <script type="text/javascript" src="uikit/js/jquery.js"></script>
         <script type="text/javascript" src="uikit/js/uikit.js"></script>
         <script type="text/javascript" src="uikit/js/core/offcanvas.min.js"></script>
@@ -30,6 +32,8 @@
                 </ul>
             </div>
             <a href="#idNav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{mode:'reveal'}"></a>
+            
+            
             <div class="uk-offcanvas" id="idNav">
                 <div class="uk-offcanvas-bar">
                     <div class="uk-nav">
@@ -40,16 +44,18 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav>        
         
-        <div class="uk-grid uk-grid-medium" data-uk-grid-margin>            
-                <div class="uk-width-small-1-1 uk-width-medium-4-10" style="background-color: #ff0">
-                    asdfdsf
-                </div>
-                <div class="uk-width-small-1-1 uk-width-medium-6-10" style="background-color: #f0f">
-                    65456456
-                </div>            
-        </div>
+        <div class="uk-grid uk-grid-collapse" data-uk-grid-match="{target:'.uk-panel'}">
+    <div class="uk-width-medium-1-2">
+        <div class="uk-panel uk-panel-box">...dsjfoijsdaofsdafjodasjf<br> fasfasfasdfasdf <br> jskdadakjdask</div>
+    </div>
+    <div class="uk-width-medium-1-2">
+        <div class="uk-panel uk-panel-box">...</div>
+    </div>
+</div>
+        
+        
         
     </body>
 </html>

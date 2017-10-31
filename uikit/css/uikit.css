@@ -5379,6 +5379,22 @@ ul.uk-nav-sub {
   -webkit-animation-duration: 0.2s;
   animation-duration: 0.2s;
 }
+
+.sticky-bot {
+  z-index: 980;
+  box-sizing: border-box;
+  position: fixed;
+  bottom:  0 !important;
+  /* 1 */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin: 0px 0px 0px 0px;
+}
+
+.mt{
+    z-index: 100;
+}
+
 /* ========================================================================
    Component: Off-canvas
  ========================================================================== */
